@@ -184,7 +184,7 @@ function debounce(func, wait, immediate) {
     }, wait);
     if (immediate && !timeout) func.apply(context, args);
   };
-};
+}
 
 var BrowserDetect = {
   init: function() {

@@ -207,7 +207,7 @@
                 height: 2.5em;
                 width: 100%;
                 border-radius: $bs-datetimepicker-border-radius;
-                margin: 2px 0px !important;
+                margin: 2px 0 !important;
             }
         }
     }
@@ -316,7 +316,7 @@
                 line-height: 30px;
                 width: 30px;
                 text-align: center;
-                padding: 0px;
+                padding: 0;
                 border-radius: 50%;
                 position: relative;
                 z-index: -1;
@@ -382,7 +382,7 @@
                 width: 40px;
                 height: 40px;
                 line-height: 40px;
-                margin: 3px 3px;
+                margin: 3px;
                 cursor: pointer;
                 border-radius: 50%;
                 text-align: center;
