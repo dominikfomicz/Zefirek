@@ -69,9 +69,7 @@
 						</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" rel="tooltip" title="" data-placement="bottom"
-							href="https://www.facebook.com/Zefirek-Opole-108194090771209/" target="_blank"
-							data-original-title="Polub nas na Facebook'u!">
+						<a class="nav-link" href="javascript:void(0)" onclick="navigateToFacebook()">
 							<i class="material-icons">facebook</i>
 						</a>
 					</li>
@@ -119,7 +117,7 @@
 			<div class="section text-center section-items">
 				<div class="row">
 					<div class="col-md-12 ml-auto mr-auto">
-						<h2 class="title">Nasze produkty</h2>
+						<h2 class="title">Produkty</h2>
 					</div>
 				</div>
 
@@ -1424,6 +1422,10 @@
 					scrollTop: $('.section-menu').offset().top
 				}, 1000);
 			}
+		}
+
+		function navigateToFacebook() {
+			window.location.href = 'https://www.facebook.com/ZefirekOpole/';
 		}
 
 		$(document).ready(function () {
